@@ -103,7 +103,7 @@ Create `.env` file:
 CLIENT_ID=your_client_id
 CLIENT_SECRET=your_client_secret
 ACCESS_TOKEN=your_access_token
-```Output
+```
 ---
 ## Output
 <img width="1600" height="844" alt="index" src="https://github.com/user-attachments/assets/f42c6dd2-9b3c-4558-9223-9709a7179e02" />
