@@ -1,4 +1,3 @@
-````md id="p7m2q5"
 # Vehicle Maintenance Scheduler
 
 ## Overview
@@ -9,9 +8,9 @@ This project is a backend-based Vehicle Maintenance Scheduler developed using No
 
 ## Features
 
-- Fetch depot data from external API
+- Fetch depot data from external APIs
 - Fetch vehicle maintenance tasks
-- Optimize maintenance scheduling
+- Generate optimized maintenance schedules
 - REST API implementation
 - Logging middleware integration
 - Modular backend architecture
@@ -44,8 +43,9 @@ vehicle_scheduling/
 │
 ├── notification_system_design.md
 ├── package.json
-├── .gitignore
-└── .env
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -58,7 +58,9 @@ vehicle_scheduling/
 GET /schedule
 ```
 
-### Sample Response
+---
+
+## Sample Response
 
 ```json
 [
@@ -97,20 +99,28 @@ http://localhost:5000
 
 ## Environment Variables
 
-Create `.env` file:
+Create a `.env` file in the root directory:
 
 ```env
 CLIENT_ID=your_client_id
 CLIENT_SECRET=your_client_secret
 ACCESS_TOKEN=your_access_token
 ```
----
-## Output
-<img width="1600" height="844" alt="index" src="https://github.com/user-attachments/assets/f42c6dd2-9b3c-4558-9223-9709a7179e02" />
-<img width="1600" height="852" alt="PostMan" src="https://github.com/user-attachments/assets/46801d1b-e29e-45d9-bad8-f960c6241c04" />
 
+---
+
+## Output
+
+### Server Running
+
+<img width="1600" height="844" alt="Server Output" src="https://github.com/user-attachments/assets/f42c6dd2-9b3c-4558-9223-9709a7179e02" />
+
+### API Testing in Postman
+
+<img width="1600" height="852" alt="Postman Output" src="https://github.com/user-attachments/assets/46801d1b-e29e-45d9-bad8-f960c6241c04" />
+
+---
 
 ## Author
 
 Sadiya
-````
